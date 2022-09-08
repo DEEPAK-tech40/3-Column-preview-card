@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+:root {
+    --sedanBg: hsl(31, 77%, 52%);
+    --suvBg: hsl(184, 100%, 22%);
+    --luxuryBg: hsl(179, 100%, 13%);
+    --bg: hsl(0, 0%, 95%);
+    --paraBg: hsla(0, 0%, 100%, 0.75);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    height: 1600px;
+}
+
+body {
+    background-color: var(--bg);
+    height: 100%;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    margin: 0px;
+}
+
+h1 {
+    color: var(--bg);
+    font-family: Big Shoulders Display;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+p {
+    color: var(--paraBg);
+    font-family: Lexend Deca;
+    line-height: 1.8;
+    font-weight: 400;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    height: 1400px;
+    width: 320px;
+}
+
+.sedans {
+    background-color: var(--sedanBg);
+    border-radius: 7px 7px 0px 0px;
+}
+
+.suvs {
+    background-color: var(--suvBg);
+}
+
+.luxury {
+    background-color: var(--luxuryBg);
+    border-radius: 0px 0px 7px 7px;
+}
+
+main>div {
+    padding: 45px;
+    display: flex;
+    flex-direction: column;
+}
+
+.btn-sedan,
+.btn-suv,
+.btn-luxury {
+    background-color: var(--bg);
+    height: 2.8rem;
+    width: 60%;
+    border-radius: 25px;
+    text-align: center;
+    border: none;
+    font-weight: 400;
+    font-size: 15px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.btn-sedan {
+    color: var(--sedanBg);
+}
+
+.btn-suv {
+    color: var(--suvBg);
+}
+
+.btn-luxury {
+    color: var(--luxuryBg);
+}
+
+.btn-sedan:hover,
+.btn-suv:hover,
+.btn-luxury:hover {
+    border: 3px solid var(--bg);
+    background-color: rgba(255, 255, 255, 0);
+    color: var(--bg);
+}
+
+footer {
+    margin: 35px;
+}
+
+footer>p {
+    color: black;
+    font-size: 16px;
+}
+
+footer>p>a {
+    text-decoration: none;
+}
+
+@media screen and (min-width:905px) {
+
+    html,
+    body {
+        height: 100vh;
+    }
+
+    h1 {
+        font-size: 45px;
+    }
+
+    main {
+        flex-direction: row;
+        width: 920px;
+        height: 570px;
+    }
+
+    main>div {
+        padding: 50px;
+    }
+
+    .sedans {
+        border-radius: 7px 0px 0px 7px;
+    }
+
+    .luxury {
+        border-radius: 0px 7px 7px 0px;
+    }
+
+    .btn-sedan,
+    .btn-suv,
+    .btn-luxury {
+        height: 3.6rem;
+        width: 10.5rem;
+        margin-top: 35%;
+        font-weight: 700;
+        font-size: 18px;
+        font-family: Lexend Deca;
+        border-radius: 50px;
+    }
+
+    footer>p {
+        font-size: 18px;
+    }
+}
