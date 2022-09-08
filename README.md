@@ -18,7 +18,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Solution](https://your-solution-url.com)
-- Live Site URL: [Live site URL](https://your-live-site-url.com)
+- Live Site URL: [Live site URL](https://deepak-tech40-3column-preview.netlify.app/)
 
 ## My process
 
