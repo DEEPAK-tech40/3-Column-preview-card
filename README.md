@@ -29,7 +29,7 @@ Mobile-view:
 
 ### Links
 
-- Solution URL: [Solution](https://your-solution-url.com)
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/3columnpreviewcard-J4vsxBJjhh)
 - Live Site URL: [Live site URL](https://deepak-tech40-3column-preview.netlify.app/)
 
 ## My process
