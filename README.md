@@ -4,6 +4,8 @@ This is a solution to the [3-column preview card component challenge on Frontend
 
 ## Overview
 
+![desktop-preview](https://user-images.githubusercontent.com/94350356/189063093-c636921b-d45e-4666-8593-589958c4deb9.jpg)
+
 ### The challenge
 
 Users should be able to:
@@ -12,6 +14,16 @@ Users should be able to:
 - See hover states for interactive elements
 
 ### Screenshot
+
+Desktop-view:
+
+![desktop-design](https://user-images.githubusercontent.com/94350356/189063987-74a486b8-3868-41ba-87d0-781dfac13342.jpg)
+
+
+Mobile-view:
+
+![mobile-design](https://user-images.githubusercontent.com/94350356/189063880-31b4b362-bbb5-4dac-b8a2-abcb64b3438d.jpg)
+
 
 ![](./screenshot.jpg)
 
