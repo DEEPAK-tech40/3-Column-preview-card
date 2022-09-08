@@ -46,7 +46,7 @@ main {
     display: flex;
     flex-direction: column;
     height: 1400px;
-    width: 320px;
+    width: 310px;
 }
 
 .sedans {
@@ -64,7 +64,7 @@ main {
 }
 
 main>div {
-    padding: 45px;
+    padding: 40px;
     display: flex;
     flex-direction: column;
 }
@@ -125,17 +125,23 @@ footer>p>a {
     }
 
     h1 {
-        font-size: 45px;
+        font-size: 40px;
+        margin: 0px;
+    }
+
+    p {
+        margin: 0px;
     }
 
     main {
         flex-direction: row;
         width: 920px;
-        height: 570px;
+        height: 510px;
     }
 
     main>div {
         padding: 50px;
+        gap: 30px;
     }
 
     .sedans {
@@ -149,13 +155,17 @@ footer>p>a {
     .btn-sedan,
     .btn-suv,
     .btn-luxury {
-        height: 3.6rem;
-        width: 10.5rem;
-        margin-top: 35%;
-        font-weight: 700;
-        font-size: 18px;
+        height: 3rem;
+        width: 9.5rem;
+        margin-top: 20%;
+        font-weight: 400;
+        font-size: 16px;
         font-family: Lexend Deca;
         border-radius: 50px;
+    }
+
+    footer {
+        margin: 20px;
     }
 
     footer>p {
